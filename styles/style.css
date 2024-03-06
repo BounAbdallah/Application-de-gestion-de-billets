@@ -1,0 +1,121 @@
+body{
+    margin:0px ;
+    /* display: flex; */
+    /* align-content: space-around; */
+    /* flex-direction: column; */
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #3011BC;
+    box-shadow: 1px 2px  12px #FE7A15;
+
+
+}
+.navigation{
+    margin-top: 40px;
+}
+
+.nav-bar{
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #3011BC;
+}
+.btn-ajouter{
+    margin-top: 20px;
+    font-size: 22px;
+
+    color: aliceblue;
+    width: 300px;
+    margin-left: 80px;
+}
+.btn-ajouter p{
+    margin: 40px;
+}
+
+.btn-voir{
+    margin-top: 20px;
+    font-size: 22px;
+    color: aliceblue;
+    width: 300px;
+    height: 40px;
+    margin-left: 80px;
+}
+.btn-voir p{
+    margin: 40px;
+}
+
+.titre{
+    font-size: 22px;
+    color: #FE7A15;
+    display: flex;
+    justify-content: center;
+}
+
+.card-contenaire{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #000;
+    width: 405px;
+    height: auto;
+}
+.card h3{
+    margin: 20px;
+    gap: 15px;
+    width: 155px;
+}
+.contenaire{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.contenaire form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.section-form input{
+    width: 250px;
+    height: 40px;
+    gap: 20px;
+    border: 2px solid #FE7A15;
+    color: #3011BC;
+}
+.section-form{
+    margin-top: 30px;
+    width: 600px;
+}
+.section-form button{
+    width: 260px;
+    background: #3011BC;
+    color: #FE7A15;
+    font-size: 22px;
+    height: 50px;
+    border: 1px solid #FE7A15;
+}
+.section-liste{
+    border-left: 2px solid #FE7A15;
+    height: 100%;
+    padding-left: 14px;
+}
+.section-liste .client{
+    border: 2px solid #3011BC;
+    margin-top: 12px;
+    padding-left: 8px;
+}
