@@ -8,7 +8,6 @@ $email = $_POST['email'];
 $phone = $_POST['telephone'];
 $adresse = $_POST['adresse'];
 
-
 // Validation des données (à améliorer)
 if (empty($nom) || empty($email) || empty($phone)) {
     // header('Location: add_clients.php');

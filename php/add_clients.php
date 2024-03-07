@@ -28,7 +28,7 @@
 require_once "../php/config.php";
 
 ;
-$requete = $conn->prepare("SELECT * FROM `clients` ORDER BY `id` DESC LIMIT 4");
+$requete = $conn->prepare("SELECT * FROM `clients` ORDER BY `id` DESC LIMIT 5");
 $requete->execute();
  
 ?>
