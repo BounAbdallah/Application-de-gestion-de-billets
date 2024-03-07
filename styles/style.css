@@ -52,12 +52,16 @@ a{
 
 
 .btn-voir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
     margin-top: 20px;
     font-size: 22px;
     color: aliceblue;
     width: 300px;
     height: 40px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .btn-voir p{
     height: 30px;
@@ -83,6 +87,7 @@ a{
     justify-content: space-evenly;
 }
 .card{
+    padding-top: 10px;
     color: #39434D;
     display: flex;
     flex-direction: row;
@@ -96,9 +101,13 @@ a{
 
 }
 .card h3{
+    font-size: 14px;
     margin: 15px;
     gap: 15px;
     width: 40%;
+}
+.card h3 span{
+    margin-bottom: 10px;
 }
 .contenaire{
     margin-top: 50px;
@@ -217,10 +226,79 @@ justify-content: center;
     align-items: center;
     text-align: center;
     vertical-align: middle;
+    background-color: #FF416C;
+   }
+   .date_depart{
+         width: 10%;
+    /* display: flex; */
+    font-size: 14px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
     background-color: #11998e;
    }
    .card img{
     margin-left:30px;
+    margin-top: 10px;
+    margin-right: 5px;
     width: 24px;
     height: 24px;
+   }
+   .destination{
+    width: 10%;
+    /* display: flex; */
+    font-size: 14px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #11998e;
+
+   }
+   .heure_depart{
+    border-bottom: 4px solid #FF416C ;
+   }
+   .heure_arrive{
+    width: 50%;
+    border-bottom: 4px solid #11998e ;
+   }
+   .passager{
+    color: #11998e;
+    font-size: 16px;
+    border-bottom: 4px solid #11998e ;
+
+   }
+
+   .passager span{
+    color: #11998e;
+    font-size: 20px;
+
+
+   }
+   .place{
+    background-color: #11998e;
+   }
+   .client_total{
+    gap: 20px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    color: #3011BC;
+    font-size: 24px;
+   }
+
+   .client_total span{
+    margin-top:30px ;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF416C;
+   }
+   .btn-voir{
+        display: flex;
+        flex-direction: column;
    }
