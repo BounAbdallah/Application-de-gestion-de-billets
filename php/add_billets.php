@@ -24,7 +24,7 @@ require_once "../php/config.php";
         </div>
         <div class="nav-bar">
             <div class="btn-voir">
-                <div class="voir-btn"><p><a href="../index.php">voir la liste de clients</a></p></div>
+                <div class="voir-btn"><p><a href="liste_clients.php">voir la liste de clients</a></p></div>
             </div>
             <div class="btn-ajouter">
             <p><a href="add_clients.php">Ajouter un  client</a></p>

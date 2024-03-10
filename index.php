@@ -32,7 +32,7 @@ $nombre_client = $resultat['total_clients'];
         <div class="nav-bar">
         <div class="btn-voir">
             <div class="client_total"><h5>Clients total : </h5><span><?php echo $nombre_client ?></span></div>
-            <div class="voir-btn"><p><a href="php/liste_clients.php">voir la liste de clients</a></p></div>
+            <div class="voir-btn"><p><a href="php/dashbaord.php">Acceder au tableau de bord</a></p></div>
         </div>
             <div class="btn-ajouter">
             <p><a href="php/add_clients.php">Ajouter un client</a></p>

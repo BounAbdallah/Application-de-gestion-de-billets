@@ -14,6 +14,7 @@ nav{
     justify-content: space-evenly;
     border-bottom: 2px solid #3011BC;
     box-shadow: 1px 2px  12px #FE7A15;
+    background: rgba(254, 190, 21, 0.65) ;
 
 
 }
@@ -42,7 +43,12 @@ a{
     margin-left: 80px;
 }
 .btn-ajouter p{
-    height: 30px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
     padding-left: 15px;
     border-radius: 10px;
     margin: 40px;
@@ -64,7 +70,11 @@ a{
     margin-left: 20px;
 }
 .btn-voir p{
-    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
     padding-left: 15px;
     border-radius: 10px;
     margin: 40px;
@@ -80,11 +90,12 @@ a{
 }
 
 .card-contenaire{
+    width: auto;
     margin: 70px;
     display: flex;
     flex-wrap: wrap;
     gap:30px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .card{
     padding-top: 10px;
@@ -95,16 +106,20 @@ a{
     align-items: center;
     border-radius: 20px;
     border: 1px solid #ffffff;
-    width: 500px;
+    width: auto;
     height: auto;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 
 }
 .card h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
     font-size: 14px;
     margin: 15px;
     gap: 15px;
-    width: 40%;
+    width: 30%;
 }
 .card h3 span{
     margin-bottom: 10px;
@@ -214,7 +229,7 @@ justify-content: center;
    }
    .statut span{
     font-size: 18px;
-    color: #11998e;
+    color: #FE7A15;
    }
    .date_arrive{
     width: 10%;
@@ -226,7 +241,7 @@ justify-content: center;
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    background-color: #FF416C;
+    background-color: #3011BC;
    }
    .date_depart{
          width: 10%;
@@ -238,7 +253,7 @@ justify-content: center;
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    background-color: #11998e;
+    background-color: #3011BC;
    }
    .card img{
     margin-left:30px;
@@ -257,31 +272,36 @@ justify-content: center;
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    background-color: #11998e;
+    background-color: #FE7A15;
 
    }
    .heure_depart{
-    border-bottom: 4px solid #FF416C ;
+    border-bottom: 4px solid #FE7A15 ;
    }
    .heure_arrive{
     width: 50%;
-    border-bottom: 4px solid #11998e ;
+    border-bottom: 4px solid #FE7A15 ;
    }
    .passager{
-    color: #11998e;
+    color: #3011BC;
     font-size: 16px;
-    border-bottom: 4px solid #11998e ;
+    border-bottom: 4px solid #3011BC ;
 
    }
 
    .passager span{
-    color: #11998e;
+    color: #FE7A15;
     font-size: 20px;
 
 
    }
    .place{
-    background-color: #11998e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 8px;
+    background-color: #3011BC;
    }
    .client_total{
     gap: 20px;

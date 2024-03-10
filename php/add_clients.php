@@ -16,10 +16,10 @@
         </div>
         <div class="nav-bar">
             <div class="btn-voir">
-                <div class="voir-btn"><p><a href="../index.php">voir la liste de clients</a></p></div>
+                <div class="voir-btn"><p><a href="liste_clients.php">voir la liste de clients</a></p></div>
             </div>
             <div class="btn-ajouter">
-            <p><a href="">Ajouter un  biellet</a></p>
+            <p><a href="add_billets.php">Ajouter un  biellet</a></p>
             </div>
         </div>
     </nav>
@@ -37,7 +37,7 @@ $requete->execute();
         <div class="section-form">
             <form action= "verification_client.php " method="POST">
             <!-- <label for="name" >Prenom</label> -->
-            <input type="texte"  id="nom" name="prenom"  placeholder="Entrez votre nom">
+            <input type="texte"  id="nom" name="prenom"  placeholder="Entrez votre prenom">
             <!-- <label for="name" >Nom</label> -->
             <input type="texte"  id="nom" name="nom"  placeholder="Entrez votre nom">
             <!-- <label for="email">Email</label> -->

@@ -1,0 +1,49 @@
+@import url(style.css);
+
+.section-liste{
+    margin-left: 40px;
+    border-left: 2px solid #FE7A15;
+    border-right: 2px solid #FE7A15;
+    height: 10%;
+    width: 600px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.section-liste .client{
+    border: 2px solid #3011BC;
+    margin-top: 12px;
+    padding-left: 8px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.navbar {
+    background-color: #FE7A15;
+}
+.navbar-brand {
+    color: #FFFFFF;
+}
+.container {
+    background-color: #FE7A15;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.container {
+    background-color: #3011BC;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #FFFFFF
+}
+.btn-supprimer, .btn-modifier {
+    background-color: #FE7A15;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
