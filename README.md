@@ -16,7 +16,20 @@ Ce projet est une application web permettant á administrateur, d'eregistré, mo
 ## Captures d'écran
 (--\/\/\/\/\/\/--)
 
-![Demo de l'application ](img/demo.png)
+1. page accueil : 
+![Demo de l'application ](images/accueil.png)
+
+2. Dashboard :
+![Demo de l'application ](images/dashboard.png)
+
+3. Ajout client  :
+![Demo de l'application ](images/ajout-client.png)
+
+4. Ajout billet :
+![Demo de l'application ](images/ajout-billet.png)
+
+5. List client :
+![Demo de l'application ](images/liste-client.png)
 
 
 
