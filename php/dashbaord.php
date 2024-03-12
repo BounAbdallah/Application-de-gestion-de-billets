@@ -50,7 +50,7 @@ $total_reservation_annuler = $resultat['nombre_reserve_annuler'];
         <div class="logo"><img src="../images/logo.png" alt=""></div>
         <div class="bouton">
             <div class="btn-new-client"><a href="../index.php"> <img src="../images/icon_home.svg" alt=""></a></div>
-            <div class="btn-new-client"><a href="../add_clients.php">Ajouter un client</a></div>
+            <div class="btn-new-client"><a href="add_clients.php">Ajouter un client</a></div>
             <div class="btn-new-client"><a href="add_billets.php">Ajouter un Billet</a></div>
         </div>
     </div>
